@@ -1,9 +1,9 @@
 import React from "react";
 import { StyleSheet } from "react-native";
-import MainApp from "../main/mainapp";
+import NavHeader from "../main/navheader";
 
 export default Main = () => {
-  return <MainApp {...this.props} />;
+  return <NavHeader {...this.props} />;
 };
 
 const style = StyleSheet.create({

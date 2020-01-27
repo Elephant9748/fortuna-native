@@ -4,17 +4,17 @@ import Hamburger from "./hamburger";
 
 const theme = {
   Header: {
-    backgroundColor: "#111d5e",
+    backgroundColor: "#111d5e"
   }
 };
 
-export default MainApp = (props) => {
+export default NavHeader = props => {
   return (
     <ThemeProvider theme={theme}>
       <Header
-      placement="right"
+        placement="center"
         rightComponent={<Hamburger {...props} />}
-        centerComponent={{ text: 'Dashboard', style: { color: '#fff' } }}
+        centerComponent={{ text: "Dashboard", style: { color: "#fff" } }}
       />
     </ThemeProvider>
   );
